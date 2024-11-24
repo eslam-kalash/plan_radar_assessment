@@ -88,9 +88,6 @@ This command starts a Docker container based on the image you built and maps por
 ```
 
 - I added whenever if we need to run  this as cronjob , also added sidkiq for future enhancement 
-```bash
-  http://localhost:3000/actors/search
-```
 
 ###  Technologies:
 - Sidekiq
