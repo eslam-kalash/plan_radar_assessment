@@ -88,7 +88,24 @@ This command starts a Docker container based on the image you built and maps por
 ```
 
 - I added whenever if we need to run  this as cronjob , also added sidkiq for future enhancement 
-
+- you can check the specs too 
+```bash
+bundle exec rspec
+```
+#### Modules and classes created:
+ - app/builders/notification_builder.rb
+ - app/builders/email_notification_builder.rb
+ - app/builders/sms_notification_builder.rb --  just for future :) 
+ - app/dispatchers/notification_dispatcher.rb
+ - app/services/due_date_reminder_service.rb
+ - app/jobs/due_date_reminder_job.rb
+ - config/schedule.rb
+ - app/models/ticket.rb
+ - app/models/user.rb
+ - specs/models
+ - specs/jobs
+ - specs/factories
+ - specs/rails_helper
 ###  Technologies:
 - Sidekiq
 - Redis
