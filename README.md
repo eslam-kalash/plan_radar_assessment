@@ -44,7 +44,7 @@ touch .env
 Sample .env file:
 ```bash
 BUNDLER_VERSION=2.4.13
-ASSESSMENT_DATABASE_PASSWORD=password12345
+ASSESSMENT_DATABASE_PASSWORD=xxxxxxxx
 ASSESSMENT_DATABASE_USERNAME=plan_radar
 DATABASE_NAME=plan_radar_development
 RAILS_ENV=development
@@ -59,7 +59,7 @@ Navigate to the project directory and build the Docker image by running the foll
 
 ```bash
 cd plan_radar_assessment
-docker-compose  up
+docker-compose build up
 ```
 This command will build a Docker image for your Rails application based on the provided Dockerfile.
 
